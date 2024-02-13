@@ -42,3 +42,4 @@ function renderPosts (posts) {
     feeds.appendChild(feed)
   })
 }
+
