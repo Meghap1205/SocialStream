@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Nexus-starter</title>
+</head>
+
+<body>
+  <header>
+    <input type="text" placeholder="Search..." class="searchbar">
+</header>
+
+  <div class="container">
+
+    <div class="feeds">
+      <h2>My Homepage</h2>
+      <template id="feed-template">
+
+        <div class="feed-template">
+          <div>
+            <a href="/userPosts/userPosts.html?userId=${post.userId}">
+              <h6>userId</h6>
+            </a>
+            <b>Title of the Post</b>
+          </div>
+          <p>userPostText</p>
+
+        </div>
+
+      </template>
+      <script src="./script.js"></script>
+    </div>
+  </div>
+</body>
+
+</html>
